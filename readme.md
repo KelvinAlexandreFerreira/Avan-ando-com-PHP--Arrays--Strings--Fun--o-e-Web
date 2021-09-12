@@ -23,3 +23,10 @@ no foreach podemos acessar o índice e o valor do elemento da iteração
 5. arrays podem crescer e podemos adicionar novos elementos
 em arrays simples, com índice numérico, basta usar [] para adicionar um elemento no final (por exemplo, $lista[] = 12;)
 5.1. nesse caso o PHP automaticamente incrementa o índice
+
+Nessa aula falamos sobre função! Aprendemos:
+
+1. uma função encapsula uma funcionalidade/um código
+2. uma função usa a palavra chave function, possui um nome, pode ter parâmetros, tem um corpo e pode ter um retorno
+3. para chamar uma função usamos o nome dela passando o valor dos parâmetros
+4. uma função pode especificar os tipos na declaração do parâmetro (a partir da versão 7), como também o tipo do retorno
