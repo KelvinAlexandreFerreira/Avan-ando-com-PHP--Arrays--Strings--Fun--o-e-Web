@@ -30,3 +30,20 @@ Nessa aula falamos sobre função! Aprendemos:
 2. uma função usa a palavra chave function, possui um nome, pode ter parâmetros, tem um corpo e pode ter um retorno
 3. para chamar uma função usamos o nome dela passando o valor dos parâmetros
 4. uma função pode especificar os tipos na declaração do parâmetro (a partir da versão 7), como também o tipo do retorno
+
+Nessa aula falamos sobre vários recursos da linguagem PHP.
+
+Primeiro vimos como usar um array associativo dentro de uma string. Aprendemos:
+
+1. para acessar um valor de um array associativo dentro de string devemos omitir as aspas da chave, por exemplo "$conta[titular]"
+2. e alternativamente podemos usar chaves em volta do array, por exemplo: "{$conta['titular']}"
+
+Também vimos que um código PHP pode ser separado em vários arquivos e orquestrar a execução podem usar include, require e require_once:
+
+1. include não dá erro (apenas avisa) se o arquivo não existe, require dá erro
+2. require_once garante que o arquivo será incluído apenas uma vez
+
+Conhecemos que existem níveis de mensagens entre eles:
+
+1. E_NOTICE, PHP dá um aviso mas "se vira" e continua com a execução
+2. E_ERROR, PHP dá erro e para a execução do programa
