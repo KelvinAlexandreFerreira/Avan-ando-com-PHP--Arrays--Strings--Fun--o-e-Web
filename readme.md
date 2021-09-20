@@ -47,3 +47,6 @@ Conhecemos que existem níveis de mensagens entre eles:
 
 1. E_NOTICE, PHP dá um aviso mas "se vira" e continua com a execução
 2. E_ERROR, PHP dá erro e para a execução do programa
+
+Para subir um servidor WEB PHP para testes:
+php -S localhost:8000
