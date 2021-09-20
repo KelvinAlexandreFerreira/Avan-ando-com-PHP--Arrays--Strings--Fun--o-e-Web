@@ -30,6 +30,8 @@ $contasCorrentes['124.456.789-88'] = depositar(
     100
 );
 
+unset($contasCorrentes['123.457.789-11']);
+
 titularComLetrasMaiusculas($contasCorrentes['124.456.789-88']);
 
 
