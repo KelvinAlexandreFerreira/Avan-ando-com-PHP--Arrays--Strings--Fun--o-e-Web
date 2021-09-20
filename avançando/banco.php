@@ -34,5 +34,6 @@ titularComLetrasMaiusculas($contasCorrentes['124.456.789-88']);
 
 
 foreach ($contasCorrentes as $cpf => $conta) {
-    exibeMensagem("$cpf {$conta['titular']} {$conta['saldo']}");
+    ['titular' => $titular, 'saldo' => $saldo] = $conta;
+    exibeMensagem("$cpf $titular $saldo");
 }
