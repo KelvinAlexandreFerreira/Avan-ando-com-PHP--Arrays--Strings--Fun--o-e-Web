@@ -50,3 +50,17 @@ Conhecemos que existem níveis de mensagens entre eles:
 
 Para subir um servidor WEB PHP para testes:
 php -S localhost:8000
+
+Nessa aula falamos finalmente sobre PHP na WEB! Aprendemos que:
+
+1. precisamos de um servidor para programar na web
+a - PHP já tem um servidor embutido
+b - o comando para rodar o servidor é: php -S localhost:8080
+2. a web sempre funciona no modelo de comunicação requisição e resposta
+a - o protocolo da web se chama HTTP (Hyper Text Transfer Protocol)
+3. s páginas web são construídas com a linguagem de marcação HTML, o navegador entende HTML
+4. podemos misturar código PHP com código HTML
+a - assim podemos criar HTML dinamicamente
+b - para tal é preciso demarcar o código PHP, abrindo e fechando a tag PHP: <?php ... ?>
+5. para imprimir algum valor podemos usar <?= $valor ?>
+6. existe muito código PHP da forma apresentada mas existem bibliotecas e frameworks que facilitam muito a criação de aplicações complexas aplicando boas práticas e padrões do mercado
